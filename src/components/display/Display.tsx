@@ -1,5 +1,10 @@
+import styles from './Display.module.css';
+
 const Display = () =>{
-    return <h2>display</h2>
+    return <div className={styles.display}>
+            <p className={styles.resultText}>3+3</p>
+            <p className={styles.inputText}>0</p>
+    </div>
 }
 
 export default Display;
