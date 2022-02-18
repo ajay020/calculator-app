@@ -1,6 +1,7 @@
 .Calculator {
   background-color: black;
-  width: 380px;
+  max-width: 380px;
   /* height: 320px; */
+  padding: 0.3rem;
   margin: 4rem auto;
 }

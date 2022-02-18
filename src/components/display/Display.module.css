@@ -1,18 +1,15 @@
 .display {
   background-color: black;
   color: white;
-  padding: 0.5rem 0.5rem;
   text-align: right;
-  /* height: 50px; */
 }
 
 .resultText {
-  /* background-color: green; */
-  padding: 0.9rem;
+  padding: 0.3rem 0.5rem;
   margin: 2px 0;
+  height: 10px;
 }
 .inputText {
-  /* background-color: white; */
-  margin: 2px 0;
-  /* padding: 0.9rem; */
+  margin: 0;
+  padding: 0.3rem 0.5rem;
 }
