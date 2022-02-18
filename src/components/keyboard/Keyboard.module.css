@@ -1,10 +1,11 @@
 .gridContainer {
-  background-color: olivedrab;
+  /* background-color: black; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(60px);
   grid-column-gap: 2px;
   grid-row-gap: 2px;
+  padding: 2px;
 }
 
 .gridItem {
@@ -15,6 +16,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.gridItem:hover {
+  border: 1px solid black;
 }
 
 #clear {
